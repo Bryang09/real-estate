@@ -1,0 +1,80 @@
+.Estate_NavBar {
+  display: flex;
+  padding-left: 10px;
+  background-color: #eeeeee;
+  letter-spacing: 1.5px;
+  justify-content: flex-start;
+  opacity: .75;
+}
+
+.Estate_NavBar h2 {
+  font-size: 22px;
+  padding-left: 8px;
+  width: 25%
+}
+
+.Estate_NavBar a {
+  text-decoration: none;
+  opacity: .75;
+  color: #000;
+}
+.Estate_NavBar a:visited {
+  color: black;
+}
+.Estate_NavBar a:hover {
+  opacity: 1;
+  color: #66bb6a;
+}
+
+
+.Estate_NavBar h3 {
+  float: right;
+  padding-right: 10px;
+  margin: 25px;
+  display: flex;
+}
+
+.Estate_Navigation {
+  width: 75%;
+  float: right;
+}
+.Estate_Navigation h3 {
+  float: right;
+}
+
+@media screen and (max-width: 740px) {
+  .Estate_NavBar {
+      display: flex;
+      flex-direction: column;
+      /* width: 100%; */
+      margin: 0 auto;
+      padding: 0;
+  }
+  .Estate_NavBar h2 {
+       width: 100%;
+      text-align: center;
+  }
+  .Estate_NavBar h3 {
+      display: flex;
+      /* width: 100%; */
+      text-align: center;
+      padding: 0;
+  }
+  .Estate_Navigation {
+      display: flex;
+      flex-direction: row-reverse;
+      
+      justify-content: center;
+      width: 99%;
+      align-items: center;
+      margin: 0;
+      text-align: center;
+  }
+}   
+
+@media screen and (max-width: 400px) {
+  .Estate_NavBar h3 {
+      font-size: 15px;
+      margin: 15px;
+  }
+}

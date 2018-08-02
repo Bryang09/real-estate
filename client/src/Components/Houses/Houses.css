@@ -1,0 +1,41 @@
+.Estate_Container {
+  background-color: #eeeeee;
+  font-family: "Raleway", sans-serif;
+}
+
+.Estate_Houses {
+  max-width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+  text-align: center;
+}
+
+.Estate_Houses h1 {
+  padding-top: 2%;
+  margin-bottom: 1%;
+}
+
+.Estate_Houses hr {
+  max-width: 25%;
+  border: 1px solid #f44336;
+}
+
+.Estate_HouseList {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 849px) {
+  .Estate_Houses {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 758px) {
+  .Estate_Houses {
+    max-width: 95%;
+  }
+}
+

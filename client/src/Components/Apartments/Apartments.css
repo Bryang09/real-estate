@@ -1,0 +1,48 @@
+.Estate_Apartments {
+  text-align: center;
+  width: 100%;
+}
+#Apartment hr {
+  width: 250px;
+  border: 1px solid  #42a5f5;
+
+}
+
+.Estate_AptList {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.Estate_Wrap {
+  min-width: 30%;
+  max-width: 30%;
+  max-height: 577px;
+  margin: 15px;
+}
+
+.Estate_Apartments {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+@media screen and ( max-width: 918px) {
+  .Estate_Wrap {
+    max-width: 45%;
+    min-width: 45%;
+  }
+}
+
+@media screen and ( max-width: 621px) {
+  .Estate_Wrap {
+    max-width: 80%;
+    min-width: 80%;
+    margin: 0 auto;
+  }
+  .Estate_AptList {
+    width: 100%;
+  }
+}
+

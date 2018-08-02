@@ -1,0 +1,79 @@
+.Estate_House {
+  min-width: 30%;
+  background: #fff;
+  display: flex; 
+  flex-direction: row;
+  margin: 15px auto;
+  text-align: center;
+  /* position: relative; */
+  border-radius: 5px;
+  justify-content: center;
+  /* border: 1px solid #000; */
+  box-shadow: 1px 1px 8px #000;
+}
+
+.Estate_House img {
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 220px;
+  max-height: 220px;
+  display: block;
+  border-radius: 5px;
+}
+
+.Estate_House h3 {
+  font-weight: 400;
+  width: 100%;
+}
+
+
+.Estate_box {
+  width: 100%;
+  margin: 5px;
+}
+
+@media screen and (max-width: 1266px) {
+  .Estate_Wrap {
+    min-width: 45%;
+  }
+}
+
+@media screen and ( max-width: 715px) {
+  .Estate_Wrap {
+    min-width: 90%
+  }
+}
+
+@media screen  and ( max-width: 887px ) {
+  .Estate_House {
+    /* min-width: 80%; */
+    /* margin-bottom: 25px; */
+    min-width: 50%;
+    min-height: 531px;
+
+  }
+  .Estate_House img {
+    min-width: 100%;
+    min-height: 50%;
+    padding-top: 0;
+  }
+  .Estate_House hr {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 464px) {
+  .Estate_House img {
+    min-height: 40%;
+    max-width: 215px;
+  }
+  .Estate_House h3 {
+    font-size: 18px;
+  }
+}
+
+@media screen and ( max-width: 667px ) {
+  .Estate_House {
+    min-height: 420px;
+  }
+}

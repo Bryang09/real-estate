@@ -1,0 +1,71 @@
+.Estate_Apartment {
+  min-width: 30%;
+  background: #fff;
+  display: flex; 
+  flex-direction: row;
+  margin: 15px auto;
+  text-align: center;
+  position: relative;
+  border-radius: 5px;
+  justify-content: center;
+  box-shadow: 1px 1px 8px #000;
+}
+
+.Estate_Apartment img {
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 220px;
+  max-height: 220px;
+  display: block;
+  border-radius: 5px;
+ } 
+
+ .Estate_Apartment h3 {
+  font-weight: 400;
+  width: 100%;
+}
+
+
+.Estate_box_ {
+  width: 100%;
+  margin: 5px;
+}
+
+@media screen and (max-width: 955px) {
+  .Estate_box_ {
+    max-height: 520px;
+    min-height: 520px;
+  }
+}
+
+
+@media screen  and ( max-width: 887px ) {
+  .Estate_Apartment {
+    min-width: 80%;
+  }
+  .Estate_Apartment img {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 40%;
+    padding-top: 0;
+  }
+  .Estate_Apartment hr {
+    max-width: 80%;
+    
+  }
+}
+
+
+@media screen and (max-width: 464px) {
+  .Estate_Apartment img {
+    min-height: 40%;
+    max-width: 215px;
+  }
+  .Estate_Apartment h3 {
+    font-size: 18px;
+  }
+  .Estate_box_ {
+    max-height: 460px;
+    min-height: 460px;
+  }
+}

@@ -1,0 +1,56 @@
+.Estate_State ul{
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+.Estate_State li{
+  list-style: none;
+  margin: 25px;
+  border: 1px solid #f44336;
+  border-radius: 70px;
+  padding: 25px;
+  width: 225px;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.Estate_State a {
+  width: 100%;
+}
+.Estate_State li:hover {
+  background-color: #f44336;
+  color: #fff;
+}
+
+/* .Estate_State a {
+  width: 100%;
+} */
+@media screen and (max-width: 1041px) {
+  .Estate_State li {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 931px) {
+  .Estate_State li {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 777px) {
+  .Estate_State ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .Estate_State li {
+    width: 150px;
+    margin: 10px auto;
+    padding: 10px;
+  }
+  .Estate_State a {
+    display: flex;
+    justify-content: center;
+  }
+}

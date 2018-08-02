@@ -1,0 +1,57 @@
+.Estate_List ul{
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+.Estate_List li{
+  list-style: none;
+  margin: 25px;
+  border: 1px solid #42a5f5;
+  border-radius: 70px;
+  padding: 25px;
+  width: 225px;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.Estate_List a {
+  width: 100%;
+}
+.Estate_List li:hover {
+  background-color: #42a5f5;
+  color: #fff;
+}
+
+/* .Estate_List a {
+  width: 100%;
+} */
+@media screen and (max-width: 1041px) {
+  .Estate_List li {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 931px) {
+  .Estate_List li {
+    width: 150px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 777px) {
+  .Estate_List ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .Estate_List li {
+    width: 150px;
+    margin: 10px auto;
+    padding: 10px;
+  }
+  .Estate_List a {
+    display: flex;
+    justify-content: center;
+  }
+}

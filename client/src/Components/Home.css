@@ -1,0 +1,130 @@
+* {
+  color: #424242;
+  font-family: 'Raleway', sans-serif;
+}
+
+.Estate_Home p {
+  margin: 25px;
+  font-size: 20px;
+  color: #424242;
+  text-align: center;
+}
+.Estate_Home h1 {
+  text-align: center;
+}
+
+.Estate_Home hr {
+  width: 250px;
+  border-bottom: 1px solid #66bb6a;
+}
+
+.Estate_Home h3 {
+  margin: 25px;
+  font-weight: bold;
+  color: #424242;
+}
+
+.Estate_Boxes {
+  display: flex;
+  min-width: 80%;
+  margin: 20px;
+  text-align: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 250px;
+  font-size: 24px;
+}
+
+.Estate_Boxes:hover {
+  opacity: 1;
+}
+
+#Estate_box1 {
+  background-color: #f44336;
+  min-width: 45%;
+  opacity: .75;
+  max-height: 300px;
+  margin: 25px;
+}
+
+#Estate_box2 {
+  background-color: #42a5f5;
+  opacity: .75;
+  min-width: 45%;
+  min-height: 300px;
+  margin: 25px;
+}
+#Estate_box3 {
+  background-color: #66bb6a;
+  min-width: 25%;
+  opacity: .75;
+  margin: 25px;
+}
+
+.Estate_Closing {
+  text-align: center;
+}
+
+.Estate_Closing a {
+  text-decoration: none;
+  color: black;
+}
+
+.Estate_Closing a:hover {
+  color: #66bb6a;
+}
+
+.Estate_Home a {
+  text-decoration: none;
+}
+
+#Estate_box1 a:hover {
+  font-size: 30px;
+  font-weight: bold;
+}
+#Estate_box2 a:hover {
+  font-size: 30px;
+  font-weight: bold;
+}
+#Estate_box3 a:hover {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#mail a{
+  color: #66bb6a;
+}
+
+.Return {
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 0 40px 0;
+  color: #424242;
+}
+.Return a {
+  border: 1px solid #66bb6a;
+  padding: 15px;
+  border-radius: 15px;
+  text-decoration: none;
+
+}
+
+.Return a:visited {
+  color: #424242;
+}
+
+.Return a:hover {
+  background: #66bb6a;
+  color: #fff;
+}
+
+
+
+@media screen and (max-width: 740px) {
+  .Estate_Boxes {
+      display: flex;
+      flex-direction: column;
+      min-width: 90%;
+  }
+}
