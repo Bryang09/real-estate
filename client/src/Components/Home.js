@@ -13,10 +13,10 @@ class Home extends Component {
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus temporibus eius repudiandae fugit libero, quis et fuga aut minima sequi enim quod soluta iure? Nemo necessitatibus maiores facilis velit quibusdam?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit possimus, veritatis explicabo, iste quia blanditiis excepturi fuga ad pariatur nesciunt error omnis vero dolorem voluptatibus et numquam. Omnis, quibusdam deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit itaque, ullam temporibus amet ipsam ratione laboriosam nisi, similique explicabo numquam perferendis consequuntur perspiciatis asperiores labore, ab facere iure soluta libero!</p>
         <div className="Estate_Boxes">
           <div id="Estate_box1">
-            <Link to="/projects/real-estate/houses"> <h3>Houses </h3></Link>
+            <Link to="/houses"> <h3>Houses </h3></Link>
           </div>
           <div id="Estate_box2">
-            <Link to="/projects/real-estate/apartments">
+            <Link to="/apartments">
               <h3>Apartments </h3>
             </Link>
           </div>
