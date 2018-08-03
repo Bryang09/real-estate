@@ -38,4 +38,8 @@
     max-width: 95%;
   }
 }
-
+@media screen and (max-width: 740px) {
+  .NoOverflow {
+    overflow: hidden;
+  }
+}
